@@ -2,6 +2,9 @@
 
 An AI-powered movie recommendation system built using PyTorch, Deep Learning, and Streamlit that provides personalized movie recommendations based on user behavior and contextual information such as time of day.
 
+# Live App
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-red)](https://movie-recommendation-system-dr29pjv6nyuucxuf2zhsta.streamlit.app/)
+
 # 🚀 Project Overview
 
 This project implements a Context-Aware Neural Recommendation System using a deep learning architecture with embedding layers for users and movies. The system analyzes user interaction patterns and contextual features to generate intelligent and personalized movie recommendations.
