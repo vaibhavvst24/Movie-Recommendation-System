@@ -1,4 +1,4 @@
-# 🎬 Context-Aware Neural Recommendation Engine
+# 🎬 Context-Aware Movie Recommendation Engine
 
 An AI-powered movie recommendation system built using PyTorch, Deep Learning, and Streamlit that provides personalized movie recommendations based on user behavior and contextual information such as time of day.
 
