@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation API
+# 🎬 Movie Recommendation System API
 
 This project is a FastAPI-based backend for a Movie Recommendation System. It provides REST API endpoints that generate personalized movie recommendations based on a user's ID and viewing context.
 
