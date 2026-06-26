@@ -4,7 +4,7 @@ An AI-powered movie recommendation system built using PyTorch, Deep Learning, an
 
 # Live API 
 [![Fast API](https://img.shields.io/badge/Fast-API-skyblue)](https://movie-recommendation-system-4bdd.onrender.com/docs)
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/dd892ffb-3de0-4782-b404-1f8eb4392573" />
+<img width="12" height="8" alt="image" src="https://github.com/user-attachments/assets/dd892ffb-3de0-4782-b404-1f8eb4392573" />
 
 
 # Live App
