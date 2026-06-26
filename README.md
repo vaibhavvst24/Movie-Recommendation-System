@@ -2,9 +2,11 @@
 
 An AI-powered movie recommendation system built using PyTorch, Deep Learning, and Streamlit that provides personalized movie recommendations based on user behavior and contextual information such as time of day.
 
+# Live API 
+[![Fast API](https://img.shields.io/badge/Fast-API-skyblue)](https://movie-recommendation-system-4bdd.onrender.com/docs)
+
 # Live App
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-red)](https://movie-recommendation-system-dr29pjv6nyuucxuf2zhsta.streamlit.app/)
-[![Fast API](https://img.shields.io/badge/Fast-API-skyblue)](https://movie-recommendation-system-4bdd.onrender.com/docs)
 
 # 🚀 Project Overview
 
