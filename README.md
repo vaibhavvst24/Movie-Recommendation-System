@@ -1,12 +1,16 @@
-# 🎬 Context-Aware Movie Recommendation Engine
+# 🎬 Movie Recommendation Engine
 
 An AI-powered movie recommendation system built using PyTorch, Deep Learning, and Streamlit that provides personalized movie recommendations based on user behavior and contextual information such as time of day.
+
+---
 
 # Live API 
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://movie-recommendation-system-4bdd.onrender.com/docs)
 
 # Live App
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://movie-recommendation-system-dr29pjv6nyuucxuf2zhsta.streamlit.app/)
+
+---
 
 # 🚀 Project Overview
 
@@ -23,6 +27,8 @@ Contextual awareness
 Neural collaborative filtering
 
 to improve recommendation relevance and personalization.
+
+---
 
 # ✨ Features
 
@@ -46,6 +52,8 @@ to improve recommendation relevance and personalization.
 
 ✅ Real-world MovieLens Dataset Integration
 
+---
+
 # 🧠 Technologies Used
 
 | Technology   | Purpose                  |
@@ -57,18 +65,39 @@ to improve recommendation relevance and personalization.
 | Scikit-learn | Encoding & Preprocessing |
 | Streamlit    | Web Application UI       |
 | Docker       | Containerized Deployment |
+| Uvicorn       | ASGI Server |
+| Pydantic      | Request Validation |
+| Swagger UI       | API Documentation |
+
+---
 
 # 📂 Dataset
 
-This project uses the MovieLens dataset for training the recommendation model.
+The project uses the MovieLens Small Dataset, which contains movie ratings provided by users.
 
-📌 Dataset Source:
-https://grouplens.org/datasets/movielens/latest/?utm_source=chatgpt.com
+Dataset includes:
 
-Files Used:
+User IDs
 
-ratings.csv
-movies.csv
+Movie IDs
+
+Ratings
+
+Timestamps
+
+Movie Titles
+
+Genres
+
+The timestamp information is converted into contextual categories:
+
+Morning
+
+Evening
+
+Night 
+
+---
 
 # 🏗️ Project Architecture
 
@@ -86,14 +115,21 @@ Recommendation Prediction
    ↓
 Streamlit Dashboard
 
+---
+
 # 🧠 Deep Learning Model
 
 The recommendation engine uses:
 
 User Embeddings
+
 Movie Embeddings
+
 Context Features
+
 Fully Connected Neural Layers
+
+---
 
 # 🎯 Context Awareness
 
@@ -106,6 +142,56 @@ Evening 🌇
 Night 🌙
 
 This improves recommendation quality by adapting recommendations based on viewing context.
+
+---
+
+# FastAPI Implementation
+
+The backend exposes REST APIs that allow users to interact with the recommendation engine.
+
+## Main Endpoint
+
+POST /recommend
+
+## Request Example
+
+{
+    "user_id": 25,
+    "context": 1
+}
+
+## Response Example
+
+{
+    "recommendations": [
+        {
+            "movie": "The Dark Knight",
+            "predicted_rating": 4.95
+        },
+        {
+            "movie": "Inception",
+            "predicted_rating": 4.90
+        }
+    ]
+}
+
+---
+
+# API Testing
+
+The API was tested using the automatically generated Swagger documentation provided by FastAPI.
+
+Swagger UI allows developers to:
+
+Test API endpoints
+
+Validate request data
+
+View JSON responses
+
+Verify API functionality without writing additional code
+
+---
 
 # 🎨 UI Features
 
@@ -122,6 +208,8 @@ Responsive Layout
 Professional Footer & Header
 
 Interactive Recommendation Display
+
+---
 
 # 📊 Recommendation Workflow
 
@@ -145,6 +233,8 @@ Movie relevance score
 
 Top recommended movies are displayed.
 
+---
+
 # 🔥 Future Enhancements
 
 🎥 Movie Posters Integration
@@ -163,6 +253,8 @@ Top recommended movies are displayed.
 
 🔐 User Authentication
 
+---
+
 ## 👨‍💻 About Me
 
 **Vaibhav Singh Bains**  
@@ -173,3 +265,4 @@ Top recommended movies are displayed.
 - 🐙 [GitHub](https://github.com/vaibhavvst24)
 
 ---
+*Developed as a Data Science Project for Zaalima Development.*
