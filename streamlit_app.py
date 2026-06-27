@@ -188,7 +188,7 @@ BUTTON
 
 .stButton > button {
 
-    width: 808%;
+    width: 408%;
 
     background: #D4A373;
 
