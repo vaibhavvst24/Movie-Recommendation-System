@@ -1,6 +1,8 @@
-# 🎬 Movie Recommendation Engine
+# 🎬 Context Aware Movie Recommendation System
 
-An AI-powered movie recommendation system built using PyTorch, Deep Learning, and Streamlit that provides personalized movie recommendations based on user behavior and contextual information such as time of day.
+The Context-Aware Neural Recommendation Engine is an AI-powered movie recommendation system developed using PyTorch, FastAPI, and Streamlit. The system generates personalized movie recommendations by combining user preferences with contextual information such as the time of day. Unlike traditional recommendation systems that rely only on historical ratings, this project integrates contextual features to improve recommendation quality and user experience.
+
+The project follows a modular architecture where PyTorch is used for deep learning, FastAPI provides backend API services, and Streamlit offers an interactive frontend dashboard.
 
 ---
 
