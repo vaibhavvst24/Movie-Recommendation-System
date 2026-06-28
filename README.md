@@ -61,7 +61,7 @@ to improve recommendation relevance and personalization.
 | Technology   | Purpose                  |
 | :------------ | :------------------------ |
 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)       | **Core Programming**         |
-| ![Pytorch](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=pytorch&logoColor=orange)      | **Deep Learning Model**      |
+| ![Pytorch](https://img.shields.io/badge/Pytorch-3776AB?style=flat-square&logo=pytorch&logoColor=orange)      | **Deep Learning Model**      |
 | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)       | **Data Processing**          |
 | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)        | **Numerical Operations**     |
 | ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) | **Encoding & Preprocessing** |
